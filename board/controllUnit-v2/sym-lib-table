@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name pinballControlUnit-rescue)(type Legacy)(uri ${KIPRJMOD}/pinballControlUnit-rescue.lib)(options "")(descr ""))
+)

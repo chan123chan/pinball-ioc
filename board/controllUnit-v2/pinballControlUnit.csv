@@ -1,0 +1,16 @@
+"ID";"Bezeichner";"Gehäuse";"Stückzahl";"Bezeichnung";"Anbieter und Referenz";
+1;"J8,J7,J3";"PinHeader_1x08_P2.54mm_Vertical";3;"Conn_01x08_Male";;;
+2;"J10,J1";"PinHeader_1x02_P2.54mm_Vertical";2;"Conn_01x02_Male";;;
+3;"J6";"PinHeader_1x06_P2.54mm_Vertical";1;"Conn_01x06";;;
+4;"U2";"QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm";1;"ATtiny48-MU";;;
+5;"SW4,SW3,SW2,SW1";"SW_SPST_B3S-1000";4;"SW_Push";;;
+6;"R14,R13,R1,R15,R16";"R_0805_2012Metric";5;"10k";;;
+7;"R12,R11,R10,R9,R8,R7,R6,R5";"R_0805_2012Metric";8;"R";;;
+8;"R4,R3,R2";"R_0805_2012Metric";3;"1k";;;
+9;"Q2,Q1,Q3,Q4";"LFPAK33";4;"BUK9M85-60EX";;;
+10;"J9";"Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal";1;"AudioJack2";;;
+11;"J4,J11,J5,J12";"TerminalBlock_MetzConnect_Type011_RT05502HBWC_1x02_P5.00mm_Horizontal";4;"Screw_Terminal_01x02";;;
+12;"D4,D3,D2,D1";"LED_0805_2012Metric";4;"LED";;;
+13;"C1,C2";"C_0805_2012Metric";2;"100n";;;
+14;"J2";"PinHeader_1x04_P2.54mm_Vertical";1;"Conn_01x04_Male";;;
+15;"U1";"SOT-23-5";1;"MCP1802";;;
