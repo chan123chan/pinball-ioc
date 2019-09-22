@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# LM5164-mylib
+# LM5164-mylib-pinballControlUnit-rescue
 #
-DEF LM5164-mylib U 0 40 Y Y 1 F N
+DEF LM5164-mylib-pinballControlUnit-rescue U 0 40 Y Y 1 F N
 F0 "U" 300 700 50 H V C CNN
-F1 "LM5164-mylib" -200 700 50 H V C CNN
+F1 "LM5164-mylib-pinballControlUnit-rescue" -200 700 50 H V C CNN
 F2 "Package_SO:TI_SO-PowerPAD-8" 300 700 50 H I C CNN
 F3 "" 300 700 50 H I C CNN
 DRAW
@@ -21,11 +21,11 @@ X SW 8 450 250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PM8841-mylib
+# PM8841-mylib-pinballControlUnit-rescue
 #
-DEF PM8841-mylib U 0 40 Y Y 1 F N
+DEF PM8841-mylib-pinballControlUnit-rescue U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "PM8841-mylib" -100 350 50 H V C CNN
+F1 "PM8841-mylib-pinballControlUnit-rescue" -100 350 50 H V C CNN
 F2 "" -300 250 50 H I C CNN
 F3 "" -300 250 50 H I C CNN
 $FPLIST
@@ -41,11 +41,11 @@ X OUT 5 450 -150 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# STB16NF06L-mylib
+# STB16NF06L-mylib-pinballControlUnit-rescue
 #
-DEF STB16NF06L-mylib U 0 40 Y Y 1 F N
+DEF STB16NF06L-mylib-pinballControlUnit-rescue U 0 40 Y Y 1 F N
 F0 "U" -350 300 50 H V C CNN
-F1 "STB16NF06L-mylib" -350 300 50 H V C CNN
+F1 "STB16NF06L-mylib-pinballControlUnit-rescue" -350 300 50 H V C CNN
 F2 "Package_TO_SOT_SMD:TO-263-2" -350 300 50 H I C CNN
 F3 "" -350 300 50 H I C CNN
 DRAW
@@ -73,11 +73,11 @@ X S 3 0 -200 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TPS560430-mylib
+# TPS560430-mylib-pinballControlUnit-rescue
 #
-DEF TPS560430-mylib U 0 40 Y Y 1 F N
+DEF TPS560430-mylib-pinballControlUnit-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "TPS560430-mylib" 0 250 50 H V C CNN
+F1 "TPS560430-mylib-pinballControlUnit-rescue" 0 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 0 350 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW

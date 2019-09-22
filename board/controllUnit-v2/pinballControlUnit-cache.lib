@@ -321,31 +321,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# pinballControlUnit-rescue_LM5164-mylib
+# mylib_PM8841
 #
-DEF pinballControlUnit-rescue_LM5164-mylib U 0 40 Y Y 1 F N
-F0 "U" 300 700 50 H V C CNN
-F1 "pinballControlUnit-rescue_LM5164-mylib" -200 700 50 H V C CNN
-F2 "Package_SO:TI_SO-PowerPAD-8" 300 700 50 H I C CNN
-F3 "" 300 700 50 H I C CNN
-DRAW
-S -350 300 350 -500 0 1 0 f
-X GND 1 0 -600 100 U 50 50 1 1 w
-X VIN 2 -450 250 100 R 50 50 1 1 W
-X EN/UVLO 3 -450 100 100 R 50 50 1 1 I
-X RON 4 -450 -400 100 R 50 50 1 1 I
-X FB 5 450 -300 100 L 50 50 1 1 I
-X PGOOD 6 450 -400 100 L 50 50 1 1 I
-X BST 7 450 -200 100 L 50 50 1 1 I
-X SW 8 450 250 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# pinballControlUnit-rescue_PM8841-mylib
-#
-DEF pinballControlUnit-rescue_PM8841-mylib U 0 40 Y Y 1 F N
+DEF mylib_PM8841 U 0 40 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "pinballControlUnit-rescue_PM8841-mylib" -100 350 50 H V C CNN
+F1 "mylib_PM8841" 200 250 50 H V C CNN
 F2 "" -300 250 50 H I C CNN
 F3 "" -300 250 50 H I C CNN
 $FPLIST
@@ -354,18 +334,18 @@ $ENDFPLIST
 DRAW
 S -350 200 350 -200 0 1 0 f
 X VCC 1 450 150 100 L 50 50 1 1 W
-X GND 2 0 -300 100 U 50 50 1 1 w
-X IN 3 -450 -150 100 R 50 50 1 1 I
+X GND 2 0 -300 100 U 50 50 1 1 W
+X IN 3 -450 0 100 R 50 50 1 1 I
 X IN_TH 4 -450 150 100 R 50 50 1 1 I
-X OUT 5 450 -150 100 L 50 50 1 1 O
+X OUT 5 450 0 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# pinballControlUnit-rescue_STB16NF06L-mylib
+# mylib_STB16NF06L
 #
-DEF pinballControlUnit-rescue_STB16NF06L-mylib U 0 40 Y Y 1 F N
+DEF mylib_STB16NF06L U 0 40 Y Y 1 F N
 F0 "U" -350 300 50 H V C CNN
-F1 "pinballControlUnit-rescue_STB16NF06L-mylib" -350 300 50 H V C CNN
+F1 "mylib_STB16NF06L" -350 300 50 H V C CNN
 F2 "Package_TO_SOT_SMD:TO-263-2" -350 300 50 H I C CNN
 F3 "" -350 300 50 H I C CNN
 DRAW
@@ -389,15 +369,35 @@ P 4 1 1 0 10 20 15 15 45 15 50 10 N
 P 4 1 1 0 30 15 15 -10 45 -10 30 15 N
 X G 1 -300 0 100 R 50 50 1 1 I
 X D 2 0 200 100 D 50 50 1 1 I
-X S 3 0 -200 100 U 50 50 1 1 B
+X S 3 0 -200 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# pinballControlUnit-rescue_TPS560430-mylib
+# pinballControlUnit-rescue_LM5164-mylib-pinballControlUnit-rescue
 #
-DEF pinballControlUnit-rescue_TPS560430-mylib U 0 40 Y Y 1 F N
+DEF pinballControlUnit-rescue_LM5164-mylib-pinballControlUnit-rescue U 0 40 Y Y 1 F N
+F0 "U" 300 700 50 H V C CNN
+F1 "pinballControlUnit-rescue_LM5164-mylib-pinballControlUnit-rescue" -200 700 50 H V C CNN
+F2 "Package_SO:TI_SO-PowerPAD-8" 300 700 50 H I C CNN
+F3 "" 300 700 50 H I C CNN
+DRAW
+S -350 300 350 -500 0 1 0 f
+X GND 1 0 -600 100 U 50 50 1 1 w
+X VIN 2 -450 250 100 R 50 50 1 1 W
+X EN/UVLO 3 -450 100 100 R 50 50 1 1 I
+X RON 4 -450 -400 100 R 50 50 1 1 I
+X FB 5 450 -300 100 L 50 50 1 1 I
+X PGOOD 6 450 -400 100 L 50 50 1 1 I
+X BST 7 450 -200 100 L 50 50 1 1 I
+X SW 8 450 250 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# pinballControlUnit-rescue_TPS560430-mylib-pinballControlUnit-rescue
+#
+DEF pinballControlUnit-rescue_TPS560430-mylib-pinballControlUnit-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "pinballControlUnit-rescue_TPS560430-mylib" 0 250 50 H V C CNN
+F1 "pinballControlUnit-rescue_TPS560430-mylib-pinballControlUnit-rescue" 0 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 0 350 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
