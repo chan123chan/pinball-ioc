@@ -321,11 +321,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# mylib_LM5164
+# pinballControlUnit-rescue_LM5164-mylib
 #
-DEF mylib_LM5164 U 0 40 Y Y 1 F N
+DEF pinballControlUnit-rescue_LM5164-mylib U 0 40 Y Y 1 F N
 F0 "U" 300 700 50 H V C CNN
-F1 "mylib_LM5164" -200 700 50 H V C CNN
+F1 "pinballControlUnit-rescue_LM5164-mylib" -200 700 50 H V C CNN
 F2 "Package_SO:TI_SO-PowerPAD-8" 300 700 50 H I C CNN
 F3 "" 300 700 50 H I C CNN
 DRAW
@@ -341,31 +341,31 @@ X SW 8 450 250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# mylib_PM8841
+# pinballControlUnit-rescue_PM8841-mylib
 #
-DEF mylib_PM8841 U 0 40 Y Y 1 F N
-F0 "U" -150 350 50 H V C CNN
-F1 "mylib_PM8841" 150 350 50 H V C CNN
-F2 "" -150 350 50 H I C CNN
-F3 "" -150 350 50 H I C CNN
+DEF pinballControlUnit-rescue_PM8841-mylib U 0 40 Y Y 1 F N
+F0 "U" -300 250 50 H V C CNN
+F1 "pinballControlUnit-rescue_PM8841-mylib" -100 350 50 H V C CNN
+F2 "" -300 250 50 H I C CNN
+F3 "" -300 250 50 H I C CNN
 $FPLIST
  SOT23-5
 $ENDFPLIST
 DRAW
 S -350 200 350 -200 0 1 0 f
-X VCC 1 150 300 100 D 50 50 1 1 W
+X VCC 1 450 150 100 L 50 50 1 1 W
 X GND 2 0 -300 100 U 50 50 1 1 w
-X IN 3 -450 0 100 R 50 50 1 1 I
-X IN_TH 4 -150 300 100 D 50 50 1 1 I
-X OUT 5 450 0 100 L 50 50 1 1 O
+X IN 3 -450 -150 100 R 50 50 1 1 I
+X IN_TH 4 -450 150 100 R 50 50 1 1 I
+X OUT 5 450 -150 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# mylib_STB16NF06L
+# pinballControlUnit-rescue_STB16NF06L-mylib
 #
-DEF mylib_STB16NF06L U 0 40 Y Y 1 F N
+DEF pinballControlUnit-rescue_STB16NF06L-mylib U 0 40 Y Y 1 F N
 F0 "U" -350 300 50 H V C CNN
-F1 "mylib_STB16NF06L" -350 300 50 H V C CNN
+F1 "pinballControlUnit-rescue_STB16NF06L-mylib" -350 300 50 H V C CNN
 F2 "Package_TO_SOT_SMD:TO-263-2" -350 300 50 H I C CNN
 F3 "" -350 300 50 H I C CNN
 DRAW
@@ -393,11 +393,11 @@ X S 3 0 -200 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# mylib_TPS560430
+# pinballControlUnit-rescue_TPS560430-mylib
 #
-DEF mylib_TPS560430 U 0 40 Y Y 1 F N
+DEF pinballControlUnit-rescue_TPS560430-mylib U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "mylib_TPS560430" 0 250 50 H V C CNN
+F1 "pinballControlUnit-rescue_TPS560430-mylib" 0 250 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 0 350 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
