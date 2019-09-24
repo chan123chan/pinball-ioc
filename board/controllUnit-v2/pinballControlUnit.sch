@@ -800,7 +800,7 @@ F 3 "~" H 2650 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pinballControlUnit-rescue:LM5164-mylib-pinballControlUnit-rescue U2
+L mylib:LM5164 U2
 U 1 1 5D8778A7
 P 2050 6600
 F 0 "U2" H 2050 7075 50  0000 C CNN
@@ -1507,4 +1507,7 @@ Wire Wire Line
 	8950 3900 9250 3900
 Wire Wire Line
 	8950 5000 9250 5000
+Wire Wire Line
+	1950 7200 2050 7200
+Connection ~ 2050 7200
 $EndSCHEMATC
