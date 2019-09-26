@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 15)
+    (drawings 17)
     (tracks 519)
     (zones 0)
     (modules 80)
@@ -10,6 +10,16 @@
   )
 
   (page A4)
+  (title_block
+    (title Steuerungsboard)
+    (date 2019-09-26)
+    (rev 2)
+    (company IoC)
+    (comment 1 "Designed by Lukas von Däniken")
+    (comment 2 "David Grimbichler")
+    (comment 3 "Alexander Stutz")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -30,7 +40,7 @@
     (46 B.CrtYd user hide)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -3576,6 +3586,30 @@
     )
   )
 
+  (dimension 48.895 (width 0.15) (layer F.Fab)
+    (gr_text "48.895 mm" (at 134.015 86.0425 90) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 128.905 61.595) (xy 133.301421 61.595)))
+    (feature2 (pts (xy 128.905 110.49) (xy 133.301421 110.49)))
+    (crossbar (pts (xy 132.715 110.49) (xy 132.715 61.595)))
+    (arrow1a (pts (xy 132.715 61.595) (xy 133.301421 62.721504)))
+    (arrow1b (pts (xy 132.715 61.595) (xy 132.128579 62.721504)))
+    (arrow2a (pts (xy 132.715 110.49) (xy 133.301421 109.363496)))
+    (arrow2b (pts (xy 132.715 110.49) (xy 132.128579 109.363496)))
+  )
+  (dimension 111.76 (width 0.15) (layer F.Fab)
+    (gr_text "111.760 mm" (at 73.025 114.965) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 17.145 110.49) (xy 17.145 114.251421)))
+    (feature2 (pts (xy 128.905 110.49) (xy 128.905 114.251421)))
+    (crossbar (pts (xy 128.905 113.665) (xy 17.145 113.665)))
+    (arrow1a (pts (xy 17.145 113.665) (xy 18.271504 113.078579)))
+    (arrow1b (pts (xy 17.145 113.665) (xy 18.271504 114.251421)))
+    (arrow2a (pts (xy 128.905 113.665) (xy 127.778496 113.078579)))
+    (arrow2b (pts (xy 128.905 113.665) (xy 127.778496 114.251421)))
+  )
   (gr_text + (at 18.415 107.95) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
